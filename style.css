@@ -1,0 +1,37 @@
+/* Global CSS */
+
+body {
+  background-color: white;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.site-header {
+  height:4em;
+  position:fixed;
+  width:100%;
+  background-color:#032A33;
+  color:white;
+  display:flex;
+  flex-direction:row;
+}
+
+.site-header h1 {
+  color:white;
+}
+
+
+
+.header-name-description {
+  list-style:none;
+}
+
+.header-description {
+  font-weight:bold;
+}
+
+.navlinks {
+
+}
