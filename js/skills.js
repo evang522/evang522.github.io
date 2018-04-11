@@ -5,31 +5,31 @@
 const skillList = [
   {
     name: 'MongoDB',
-    imgUrl: '/src/img/mongodb.png'
+    imgUrl: 'src/img/mongodb.png'
   },
   {
     name: 'Node.js',
-    imgUrl: '/src/img/nodejs.png'
+    imgUrl: 'src/img/nodejs.png'
   },
   {
     name: 'PostgreSQL',
-    imgUrl: '/src/img/postgres.png'
+    imgUrl: 'src/img/postgres.png'
   },
   {
     name: 'ReactJS',
-    imgUrl: '/src/img/react.png'
+    imgUrl: 'src/img/react.png'
   },
   {
     name: 'jQuery',
-    imgUrl: '/src/img/jquery.png'
+    imgUrl: 'src/img/jquery.png'
   },
   {
     name: 'Socket.io',
-    imgUrl: '/src/img/socketio.png'
+    imgUrl: 'src/img/socketio.png'
   },
   {
     name: 'Mocha',
-    imgUrl: '/src/img/mocha.svg'
+    imgUrl: 'src/img/mocha.svg'
   }
 ];
 
