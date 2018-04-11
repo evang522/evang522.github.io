@@ -9,23 +9,23 @@ body {
 }
 
 .site-header {
-  height:4em;
+  height:6em;
   position:fixed;
   width:100%;
   background-color:#032A33;
   color:white;
+  top:0;
   display:flex;
   flex-direction:row;
 }
 
-.site-header h1 {
-  color:white;
-}
-
-
 
 .header-name-description {
   list-style:none;
+}
+
+.header-name {
+  font-size:2em;
 }
 
 .header-description {
@@ -33,5 +33,76 @@ body {
 }
 
 .navlinks {
-
+  margin: auto;
 }
+
+
+.navlinks-ul {
+  list-style:none;
+  color:white;
+  display:flex;
+}
+
+.navlinks-ul li {
+  margin:1em;
+}
+
+.navlinks-ul a {
+  color:white;
+  text-decoration:none;
+}
+
+.bottom-underline {
+  border-bottom:2px solid #F1D18A;
+}
+
+main {
+  margin-top:6em;
+}
+
+
+.about-me-greeting {
+  text-align:center;
+  font-family: 'Raleway', sans-serif;
+  font-size:3em;
+  margin-bottom:1em;
+  color:white;
+}
+.about-me {
+  text-align:center;
+  max-width:40%;
+  height:10em;
+  margin:0 auto;
+}
+
+.about-me-container {
+  background-color:#4C6F7B;
+  padding:3em;
+  margin:0;
+}
+
+.about-me-description {
+  color:white;
+}
+
+.list-of-skills {
+  display:flex;
+  flex-direction:row;
+  list-style:none;
+  margin-top:2em;
+  justify-content:center;
+}
+
+
+.list-of-skills li {
+  padding-left:.8em;
+  padding-right:.8em;
+}
+.skill-pic img {
+  width:6em;
+}
+
+.skill-name {
+  text-align:center;
+}
+
