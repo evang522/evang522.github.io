@@ -22,20 +22,20 @@
         <li class='header-name'>Evan Garrett</li>
         <li class='header-description'>Full Stack Javascript Developer</li>
       </ul>
-      <section class='navlinks'>
-        <ul class='navlinks-ul'>
-          <li class='bottom-underline'>
-            <a href='#'>Home</a>
-          </li>
-          <li>
-              <a href='#'>About Me</a>
-          </li>
-          <li>
-              <a href='#'>What I've Been Working On</a>
-          </li>
-        </ul>
-      </section>
     </header>
+    <section class='navlinks'>
+      <ul class='navlinks-ul'>
+        <li class='bottom-underline'>
+          <a href='#'>Home</a>
+        </li>
+        <li>
+            <a href='#'>About Me</a>
+        </li>
+        <li>
+            <a href='#'>My Projects</a>
+        </li>
+      </ul>
+    </section>
     <main role='main'>
 
       <!-- About Me Section -->
@@ -61,5 +61,23 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src='js/skills.js'></script>
+    <script>
+    
+    let initialPosition = 0;
+    $(window).scroll(() => {
+      let position = $(this).scrollTop();
+      if (position < initialPosition) {
+         $('.navlinks').fadeIn();
+      }else if (position > 5) { 
+           $('.navlinks').fadeOut();
+        }
+        initialPosition = position;
+    });
+
+    if ($(this).scrollTop() > 5) {
+      $('.navlinks').fadeIn();
+    }
+
+  </script>
   </body>
 </html>

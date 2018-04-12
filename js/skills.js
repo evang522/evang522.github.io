@@ -20,6 +20,10 @@ const skillList = [
     imgUrl: 'src/img/react.png'
   },
   {
+    name: 'Redux',
+    imgUrl: 'src/img/redux.png'
+  },
+  {
     name: 'jQuery',
     imgUrl: 'src/img/jquery.png'
   },
@@ -30,6 +34,10 @@ const skillList = [
   {
     name: 'Mocha',
     imgUrl: 'src/img/mocha.svg'
+  },
+  {
+    name: 'Chai',
+    imgUrl: 'src/img/jquery.png'
   }
 ];
 
