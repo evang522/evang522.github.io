@@ -15,6 +15,7 @@ body {
   background-color:#032A33;
   color:white;
   top:0;
+  border-bottom:1px solid black;
 }
 
 
@@ -105,8 +106,10 @@ main {
   flex-direction:row;
   list-style:none;
   margin-top:2em;
-  justify-content:center;
+  padding-left:0px;
+  margin-bottom:0;
 }
+
 
 
 .list-of-skills li {
@@ -115,9 +118,57 @@ main {
 }
 .skill-pic img {
   width:3em;
+  display:block;
+  margin:0 auto;
+  margin-bottom:2px;
 }
 
 .skill-name {
   text-align:center;
 }
 
+/* My Projects */
+
+
+.my-projects {
+
+}
+
+.my-projects-header {
+  background-color:#F1D18A;
+  height:2.1em;
+  font-size:1.4em;
+  text-align:center;
+  padding-top:1em;
+  font-family: 'Raleway', sans-serif;
+  font-weight:bold;
+}
+
+
+.projects-container {
+  background-color:#255965;
+  min-height:4em;
+  padding:10px;
+  color:white;
+}
+
+.project-name {
+  padding-top:2px;
+  font-size:1.3em;
+  text-align:center;
+  margin-top:.2em;
+  margin-bottom:1.1em;
+}
+
+.project-image img {
+  width:15em;
+  height:15em;
+  border-radius:8px;
+  display:block;
+  margin:0 auto;
+}
+
+.project-description {
+  text-align:center;
+  margin-top:1em;
+}
