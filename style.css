@@ -1,7 +1,7 @@
 /* Global CSS */
 
 body {
-  background-color: white;
+  background-color: #F4F9F4;
   box-sizing:border-box;
   margin:0;
   padding:0;
@@ -10,12 +10,9 @@ body {
 
 .site-header {
   height:6em;
-  position:fixed;
-  width:100%;
-  background-color:#032A33;
-  color:white;
+  color:#616161;
   top:0;
-  border-bottom:1px solid black;
+  background-color: #F4F9F4;
 }
 
 
@@ -38,31 +35,40 @@ body {
   font-weight:bold;
 }
 
+
+.view-spacer {
+  height:25rem;
+  background: linear-gradient(#F4F9F4,rgb(84, 133, 95));
+}
+
+
+
+/* Navlinks */
 .navlinks {
   color:black;
-  margin-top:6em;
-  background-color:black;
-  position:fixed;
-  top:0;
   width:100%;
+  background-color: #C4E3CB;
+  padding-bottom:5px;
+  padding-top:5px;
 }
 
 
 
 .navlinks-ul {
   list-style:none;
-  color:white;
+  color:black;
   display:flex;
   padding:6px;
 }
 
 .navlinks-ul li {
   margin:0 auto;
+  font-size:1.1em;
   text-align:center;
 }
 
 .navlinks-ul a {
-  color:white;
+  color:black;
   text-decoration:none;
 }
 
@@ -70,9 +76,6 @@ body {
   border-bottom:2px solid #F1D18A;
 }
 
-main {
-  margin-top:10em;
-}
 
 
 .about-me-greeting {
@@ -80,7 +83,6 @@ main {
   font-family: 'Raleway', sans-serif;
   font-size:2em;
   margin-bottom:1em;
-  color:white;
 }
 .about-me {
   text-align:center;
@@ -89,14 +91,13 @@ main {
 }
 
 .about-me-container {
-  background-color:#4C6F7B;
   padding:1.5em;
   margin:0;
   height:12em;
 }
 
 .about-me-description {
-  color:white;
+  color:black;
 }
 
 .list-of-skills {
@@ -146,10 +147,8 @@ main {
 
 
 .projects-container {
-  background-color:#255965;
   min-height:4em;
   padding:10px;
-  color:white;
 }
 
 .project-name {
