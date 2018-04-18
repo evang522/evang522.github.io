@@ -17,16 +17,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     
-    <header class='site-header'>
-      <ul class='header-name-description'>
-        <li class='header-name'>Evan Garrett</li>
-        <li class='header-description'>Full Stack Javascript Developer</li>
-      </ul>
-    </header>
-    <section class='view-spacer'>
-
-    </section>
-    <section class='navlinks'>
+    <header class='navlinks'>
       <ul class='navlinks-ul'>
         <li class='bottom-underline'>
           <a href='#'>Home</a>
@@ -38,33 +29,32 @@
             <a href='#'>My Projects</a>
         </li>
       </ul>
-    </section>
+    </header>
     <main role='main'>
+      <section class='gradient-container'>
+        <section class='site-header'>
+            <div class='header-name'>EVAN GARRETT</div>
+            <div class='header-description'>Full Stack Javascript Developer</div>
+        </section>
+        <section class='logo-slogan-container'>
+          <div class='logo'>
+             
+          </div>
+          <div class='slogan'>
+            Doing some cool stuff yo
+          </div>
+        </section>
+        <div class='my-projects-header'>
+          PROJECTS
+        </div>
+        <section class='skill-banner'>
+          <ul class='list-of-skills'>
 
-      <!-- About Me Section -->
-      <section class='about-me-container'>
-        <section class='about-me'>
-          <section class='about-me-greeting'>
-            Greetings!
-      
-          </section>
-          <section class='about-me-description'>
-            My name is Evan and I'm a FullStack Javascript Developer. My background in Analytic Philosophy has predisposed me to enjoy
-            solving problems with computers, but since 2017 I have found a passion for engineering solutions to life's challenges
-            with code.
-          </section>
+          </ul>
         </section>
       </section>
-      <section class='skill-banner'>
-        <ul class='list-of-skills'>
-
-        </ul>
-      </section>
-      <section class='my-projects'>
-        <div class='my-projects-header'>
-          My Projects
-        </div>
-        <section class='projects-container'>
+      <section class='projects-container'>
+        <section class='my-projects'>
 
         </section>
       </section>
@@ -75,15 +65,15 @@
     <script src='js/projects.js'></script>
     <script>
     
-    let initialPosition = 0;
-    $(window).scroll(() => {
-      let position = $(this).scrollTop();
-      if (position > 500) {
-        $('.navlinks').css({'position':'fixed', 'width':'100%', 'top':'0', 'bottom':'initial'});
-      } else {
-        $('.navlinks').css({'position':'static', 'top':'0', 'top':'initial'});
-      }
-    });
+    // let initialPosition = 0;
+    // $(window).scroll(() => {
+    //   let position = $(this).scrollTop();
+    //   if (position > 500) {
+    //     $('.navlinks').css({'position':'fixed', 'width':'100%', 'top':'0', 'bottom':'initial'});
+    //   } else {
+    //     $('.navlinks').css({'position':'static', 'top':'0', 'top':'initial'});
+    //   }
+    // });
 
   </script>
   </body>
