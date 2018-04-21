@@ -8,13 +8,13 @@ const projectObj = {
       name:'The Drystore',
       url: 'https://drystore.herokuapp.com',
       description: 'An app for storing records of and analyzing longevity of dried foods.',
-      imageUrl:'/src/img/drystore.png'
+      imageUrl:'src/img/drystore.png'
     },
     {
       name:'TekTeilen',
-      url: 'https://tekteilen.netlify.com',
-      description: 'A spin on the German phrase for \'sharing tech, tekteilen coordinates dev volunteers with organizations that need their help', 
-      imageUrl:'/src/img/tekteilen.png'
+      url: 'https://tekteilen-app.netlify.com',
+      description: 'A spin on the German phrase for \'sharing tech\', tekteilen coordinates dev volunteers with organizations that need their help', 
+      imageUrl:'src/img/tekteilen.png'
     }
   ],
 
