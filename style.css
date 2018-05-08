@@ -1,214 +1,96 @@
-/* Global CSS */
-
-html {
-  height:100%;
-}
+/* GLOBAL RESETS  */
 
 body {
-  box-sizing:border-box;
+  border:0;
   margin:0;
-  padding:0;
-  font-family: 'Roboto', sans-serif;
-  background:linear-gradient(-45deg, #396D65,white);
-}
-
-.site-header {
-  height:6em;
-  color:#FFFF91;
-  margin-bottom:1em;
-}
-
-
-
-.header-name-description {
-  list-style:none;
-  text-align:center;
-  display:flex;
-  flex-direction:column;
-  padding-left:0;
-}
-
-
-.header-name {
-  font-size:2em;
-  text-align:center;
-  padding-top:2em;
-
-}
-
-.header-description {
-  font-weight:bold;
-  text-align:center;
-  margin-top:10px;
-  color:rgb(214, 208, 208);
-}
-
-
-
-.view-spacer {
-  height:25rem;
-  
-}
-
-
-
-/* Navlinks */
-.navlinks {
+  box-sizing:border-box;
+  background-color:black;
+  font-family: 'Libre Franklin', sans-serif;
   color:white;
-  width:100%;
-  margin-bottom:0;
-  height:3em;
-  background-color: rgb(57, 109, 101);
-  position:fixed;
 }
-/* #10202F bottom gradient   #113E37 top*/
 
 
-.navlinks-ul {
-  list-style:none;
+/* jumbotron  */
+
+.jumbotron-intro-container {
+  width:90%;
   color:white;
-  display:flex;
+  border-radius:10px;
   margin:0 auto;
-  padding-left:0;
-  line-height:3em;
+  margin-top:15em;
 }
 
-.navlinks-ul li {
-  margin:0 auto;
-  font-size:1.1em;
-  text-align:center;
+
+.jumbotron-name {
+  font-size:3em;
+  margin:.5em;
+  margin-left:0;
 }
 
-.navlinks-ul a {
+
+.jumbotron-description {
+  margin:1em;
+  margin-left:0;
+}
+
+
+
+
+/* images  */
+
+.img {
+  margin:1em;
+  width:3em;
+}
+
+
+/* links */
+.jumbotron-links a {
   color:white;
   text-decoration:none;
 }
 
-.logo {
-  height:8em;
-  width:8em;
-  border-radius:5em;
-  background-color:#EEEEEE;
-  margin:0 auto;
-  padding:10px;
-  margin-bottom:3em;
-  margin-top:3em;
-}
 
-.slogan {
-  color:white;
-  text-align:center;
-  margin-bottom:2em;
-}
-
-
-
-
-.bottom-underline {
-  border-bottom:2px solid #F1D18A;
-}
-
-
-.about-me-greeting {
-  text-align:center;
-  font-family: 'Raleway', sans-serif;
-  font-size:2em;
-  margin-bottom:1em;
-}
-.about-me {
-  text-align:center;
-  height:10em;
-  margin:0 auto;
-}
-
-.about-me-container {
-  padding:1.5em;
-  margin:0;
-  height:12em;
-}
-
-.about-me-description {
-  color:black;
-}
-
-.list-of-skills {
-  height:6em;
-  overflow-x:auto;
+.jumbotron-links {
   display:flex;
   flex-direction:row;
-  list-style:none;
-  margin-top:2em;
-  padding-left:0px;
-  margin-bottom:0;
+}
+
+.internal-links {
+  padding-top:2em;
+  margin-left:1em;
+  /* text-transform:uppercase; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.internal-links a {
+  margin:.5em;
 }
 
 
 
-.list-of-skills li {
-  padding-left:.8em;
-  padding-right:.8em;
-}
-.skill-pic img {
-  width:3em;
-  display:block;
-  margin:0 auto;
-  margin-bottom:2px;
-}
+/* =================================Projects=============== */
 
-.skill-name {
+.projects-header {
+  font-size:2em;
   text-align:center;
-  color:white;
-}
-
-/* My Projects */
-
-
-
-
-.my-projects-header {
-  height:1em;
-  font-size:1.1em;
-  text-align:center;
-  font-family: 'Raleway', sans-serif;
-  font-weight:bold;
-  border-radius:10px;
-  padding:10px;
-  width:18em;
-  margin:0 auto;
-  background-color:#3E8C63;
-  color:white;
-}
-
-
-.gradient-container {
-  height:40em;
-  background: linear-gradient(-45deg, #113E37,#10202F);
-  padding-top:4em;
+  font-family: 'Libre Franklin', sans-serif;
 }
 
 .projects-container {
-  min-height:4em;
-  padding:10px;
-
+  margin:0 auto;
+  display:block;
+  text-align:center;
+  max-width:80%;
 }
 
-.project-name {
-  padding-top:2px;
-  font-size:1.3em;
-  text-align:center;
-  margin-top:.2em;
-  margin-bottom:1.1em;
+
+.project-container {
+  margin:3em;
 }
 
 .project-image img {
-  width:15em;
-  height:15em;
-  border-radius:8px;
-  display:block;
-  margin:0 auto;
-}
-
-.project-description {
-  text-align:center;
-  margin-top:1em;
+  width:20em;
+  border-radius:10px;
+  box-shadow: 5px 5px rgb(44, 44, 44);
 }
