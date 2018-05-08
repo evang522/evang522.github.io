@@ -25,7 +25,7 @@ const projectObj = {
       name:'Data Science and Algorithms Quiz',
       url: 'https://elated-jackson-e60e1b.netlify.com/',
       description: 'A quiz geared towards helping students learn Data Science Concepts by implementing a spaced repetition question frequency algorithm. If the student gets a question correct, they will not see the question as often. If they get a specific question wrong, however, it will appear more frequently unil their knowledge improves.', 
-      imageUrl:'../src/img/dsa.png/',
+      imageUrl:'../src/img/dsa.png',
       linktorepo: 'https://github.com/thinkful-ei18/sr-client-cm-eg',
       myrole: 'On this project I worked with <a href="https://github.com/christinamakes">Christina Moore</a>, a fellow Thinkful graduate and an excellent frontend developer. I wrote most of the serverside code for this app. There is a Javascript based Linkedlist Class which is stored in the database. I wrote a Spaced Repetition Alrgorithm that makes use of static methods on the Linked List class to adjust the frequency with which the user would encounter a question based upon their answer.'
 
