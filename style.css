@@ -9,6 +9,32 @@ body {
   color:white;
 }
 
+/* header */
+.site-header {
+  background-color:rgb(39, 39, 39);
+  height:2.5em;
+  position:fixed;
+  width:100%;
+  top:0;
+}
+
+.header-ul {
+  list-style:none;
+  display:flex;
+  flex-direction:row;
+  line-height:.4em;
+}
+
+.header-ul a {
+  color:white;
+  text-decoration:none;
+}
+
+.header-ul li {
+  padding:4px;
+  padding-left:2em;
+}
+
 
 /* jumbotron  */
 
@@ -71,26 +97,97 @@ body {
 
 /* =================================Projects=============== */
 
+.projects-main {
+  margin-top:5em;
+}
+
 .projects-header {
   font-size:2em;
   text-align:center;
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .projects-container {
   margin:0 auto;
-  display:block;
   text-align:center;
-  max-width:80%;
+  max-width:90%;
 }
 
 
 .project-container {
-  margin:3em;
+  display:flex;
+  width:75em;
+  margin:3em auto;
+}
+
+.project-image {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.project-info-container {
+  flex-basis:60%;
+  width:80%;
+  box-sizing:border-box;
+}
+
+.project-name {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:1.7em;
+  text-align:left;
+  color:rgb(163, 156, 156);
+  margin-bottom:.5em;
+
+}
+
+.project-description {
+  display:block;
+  margin-right:0 auto;
+  margin-top:1em;
+  text-align:left;
+  width:85%;
+  font-size:.9em;
+}
+
+.project-description a {
+  color:white;
+}
+
+.myrole {
+  margin-top:1em;
+}
+
+.role-title {
+  color:rgb(163, 156, 156);
+  margin-bottom:.5em;
+  font-family: 'Roboto Slab', serif;
 }
 
 .project-image img {
-  width:20em;
-  border-radius:10px;
-  box-shadow: 5px 5px rgb(44, 44, 44);
+  width:35em;
+  box-shadow: 4px 4px 5px rgb(85, 85, 85);
+}
+
+.project-image {
+  margin:0 auto;
+}
+
+.repo-link {
+  margin-left:.5em;
+  padding-top:.5em;
+}
+
+.repo-link-img {
+  width:1em;
+}
+
+
+.name-link-cont {
+  display:flex;
+}
+
+@media only screen and (max-width:800px) {
+  .project-container {
+    flex-direction: column;
+  }
 }
