@@ -16,6 +16,7 @@ body {
   position:fixed;
   width:100%;
   top:0;
+  z-index:1;
 }
 
 .header-ul {
@@ -57,6 +58,7 @@ body {
 .jumbotron-description {
   margin:1em;
   margin-left:0;
+  font-size:1.5em;
 }
 
 /* images  */
@@ -77,6 +79,7 @@ body {
 .jumbotron-links {
   display:flex;
   flex-direction:row;
+  margin-left:-1.4em;
 }
 
 .internal-links {
@@ -180,6 +183,38 @@ body {
 .name-link-cont {
   display:flex;
 }
+
+/* About Page */
+.gravatar-img {
+  margin:0 auto;
+  margin-top: 12em;
+  width:20em;
+
+}
+
+.gravatar-img img {
+  z-index:0;
+  border-radius:25em;
+  width:15em;
+  margin:0 auto;
+  display:block;
+}
+
+.whoami-title {
+  margin-bottom:1em;
+  font-size:1.2em;
+}
+
+.about-me-information {
+  width:60%;
+  margin:0 auto;
+  margin-top:4em;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
 
 @media only screen and (max-width:800px) {
   .project-container {
