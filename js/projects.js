@@ -40,7 +40,7 @@ const projectObj = {
       imageUrl:'../src/img/linklib.png',
       linktorepo: 'https://github.com/evang522/linklib-server',
       myrole: 'I was the sole developer for this project, attempting to solve a personal need.',
-      techstack: 'I have always been impressed by Python\'s versatility. So I decided I would try to learn the language and write an application using Python. So I took a week and learned Python basics and Flask server framework and wrote this app. I was also able to write custom JWT authentication middleware in Python, to protect use data.'
+      techstack: 'I have always been impressed by Python\'s versatility. So I decided I would try to learn the language and write an application using Python. So I took a week and learned Python basics and Flask server framework and wrote this app. I was also able to write custom JWT authentication middleware in Python, to protect user data.'
 
     }
   ],
