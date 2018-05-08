@@ -59,9 +59,6 @@ body {
   margin-left:0;
 }
 
-
-
-
 /* images  */
 
 .img {
@@ -117,7 +114,7 @@ body {
 .project-container {
   display:flex;
   width:75em;
-  margin:3em auto;
+  margin:4em auto;
 }
 
 .project-image {
@@ -127,7 +124,6 @@ body {
 
 .project-info-container {
   flex-basis:60%;
-  width:80%;
   box-sizing:border-box;
 }
 
@@ -136,8 +132,7 @@ body {
   font-size:1.7em;
   text-align:left;
   color:rgb(163, 156, 156);
-  margin-bottom:.5em;
-
+  margin-bottom:.5em
 }
 
 .project-description {
@@ -145,7 +140,7 @@ body {
   margin-right:0 auto;
   margin-top:1em;
   text-align:left;
-  width:85%;
+  width:90%;
   font-size:.9em;
 }
 
