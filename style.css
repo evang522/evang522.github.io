@@ -238,7 +238,7 @@ body {
 }
 
 
-@media only screen and (max-width:1400px) {
+@media only screen and (max-width:1200px) {
   .project-container {
     flex-direction: column;
     width:100%;
@@ -250,6 +250,7 @@ body {
   }
   .project-description {
     margin:0 auto;
+    width:60%;
   }
 
   .links-container {
@@ -272,7 +273,7 @@ body {
   }
   
   .project-image img{
-    width:20em;
+    width:30em;
   }
 
   .project-image {
@@ -285,6 +286,15 @@ body {
   .jumbotron-links{
     margin:0 auto;
   }
+
+  .project-description {
+    width:100%;
+  }
+
+  .project-image img{
+    width:20em;
+  }
+
 
   .jumbotron-name {
     text-align:center;
