@@ -11,26 +11,16 @@ const projectObj = {
       imageUrl:'../src/img/drystore.png',
       linktorepo: 'https://github.com/evang522/drystore',
       myrole: 'I was the sole developer on this project, attempting to solve an administrative challenge for food storage for my family.',
-      techstack: 'This project was made using Node, Express, MongoDB, and Pug templating engine for serverside rendering. This is the only project I\'ve done with serverside rendering. I now prefer a REST API and a frontend framework such as React.js. Authentication is managed by Passport.js'
+      techstack: 'This project was made using Node, Express, MongoDB, and Pug templating engine for serverside rendering. This is the only project I\'ve done with serverside rendering. I now prefer a REST API and a frontend framework such as React.js. Authentication is managed by Passport.js.'
     },
     {
       name:'TekTeilen',
       url: 'https://tekteilen-app.netlify.com',
-      description: 'A spin on the German phrase for \'sharing tech\', tekteilen coordinates dev volunteers with organizations that need their help', 
+      description: 'A spin on the German phrase for \'sharing tech\', tekteilen coordinates dev volunteers with organizations that need their help.', 
       imageUrl:'../src/img/tekteilen.png',
       linktorepo: 'https://github.com/evang522/tekteilen-client',
       myrole: 'I was the sole developer for this project, attempting to provide a place for non-profits needing assistance with tech and tech volunteers to connect. ',
       techstack: 'PostgreSQL, Node.js, Expressjs, React.js, and Redux for state management. I wrote my own authentication middleware using JSON web tokens. Feel free to check it out in the code repo!'
-
-    },
-    {
-      name:'Data Science and Algorithms Quiz',
-      url: 'https://elated-jackson-e60e1b.netlify.com/',
-      description: 'A quiz geared towards helping students learn Data Science Concepts by implementing a spaced repetition question frequency algorithm. If the student gets a question correct, they will not see the question as often. If they get a specific question wrong, however, it will appear more frequently unil their knowledge improves.', 
-      imageUrl:'../src/img/dsa.png',
-      linktorepo: 'https://github.com/thinkful-ei18/sr-client-cm-eg',
-      myrole: 'On this project I worked with <a href="https://github.com/christinamakes">Christina Moore</a>, a fellow Thinkful graduate and an excellent frontend developer. My role was in writing most of the server-side code for this app.We made use of a Javascript based Linkedlist Class  which is stored in the database to manage the user\'s quiz data flow. I wrote a Spaced Repetition Algorithm that makes use of static methods on the Linked List class to adjust the frequency with which the user would encounter a question based upon their answer.',
-      techstack: 'MongoDB, Node.js, Expressjs, React.js, and Redux for state management. This app also makes use of my custom authentication middleware written with JSON web token.'
 
     },
     {
@@ -41,6 +31,16 @@ const projectObj = {
       linktorepo: 'https://github.com/evang522/linklib-server',
       myrole: 'I was the sole developer for this project, attempting to solve a personal need.',
       techstack: 'I have always been impressed by Python\'s versatility. So I decided I would try to learn the language and write an application using Python. So I took a week and learned Python basics and Flask server framework and wrote this app. I was also able to write custom JWT authentication middleware in Python, to protect user data.'
+
+    },
+    {
+      name:'Data Science and Algorithms Quiz',
+      url: 'https://elated-jackson-e60e1b.netlify.com/',
+      description: 'A quiz geared towards helping students learn Data Science Concepts by implementing a spaced repetition question frequency algorithm. If the student gets a question correct, they will not see the question as often. If they get a specific question wrong, however, it will appear more frequently unil their knowledge improves.', 
+      imageUrl:'../src/img/dsa.png',
+      linktorepo: 'https://github.com/thinkful-ei18/sr-client-cm-eg',
+      myrole: 'On this project I worked with <a href="https://github.com/christinamakes">Christina Moore</a>, a fellow Thinkful graduate and an excellent frontend developer. My role was in writing most of the server-side code for this app.We made use of a Javascript based Linkedlist Class  which is stored in the database to manage the user\'s quiz data flow. I wrote a Spaced Repetition Algorithm that makes use of static methods on the Linked List class to adjust the frequency with which the user would encounter a question based upon their answer.',
+      techstack: 'MongoDB, Node.js, Expressjs, React.js, and Redux for state management. This app also makes use of my custom authentication middleware written with JSON web token.'
 
     }
   ],
