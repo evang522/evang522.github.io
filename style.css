@@ -41,12 +41,20 @@ body {
 
 /* jumbotron  */
 
+@keyframes moveInLeft {
+  0% {padding-left:30em;opacity:0;}
+  80% {padding: initial}
+  90% {padding-left:1em;}
+  100% {padding:initial; opacity:1;}
+}
+
 .jumbotron-intro-container {
   width:90%;
   color:white;
   border-radius:10px;
   margin:0 auto;
   margin-top:15em;
+  animation: moveInLeft .5s linear;
 }
 
 
