@@ -14,6 +14,16 @@ const projectObj = {
       techstack: 'This project was made using Node, Express, MongoDB, and Pug templating engine for serverside rendering. This is the only project I\'ve done with serverside rendering. I now prefer a REST API and a frontend framework such as React.js. Authentication is managed by Passport.js.'
     },
     {
+      name:'Schedio Event Planner',
+      url: 'https://schedio.netlify.com/',
+      description: 'Schedio is an event planner the core goal of which is to provide users with knowledge of what they might be able to do when travelling to a certain area. This app is borne out of personal interest-- we like to travel places and we wanted to have a centralized console by which we can plan, manage information, and see possibilities for our trips.', 
+      imageUrl:'../src/img/schedio.png',
+      linktorepo: 'https://github.com/thinkful-ei18/sr-client-cm-eg',
+      myrole: 'I worked on a team of five developers to create Schedio. My role in the project was to create the backbone of the serverside code, creating the majority of CRUD actions for Events, the creation of Todo List Items, Restaurant Data, and Weather data. I was also the primary author of testing for our API. Tasks in the frontend I was responsible for include logic which retrieves the main dataset for a user from the database, creating three modular widgets: Todo List, Weather, and Food and Dining.',
+      techstack: 'MongoDB, Node.js, Expressjs, React.js, and Redux for state management. Google oAuth manages Authentication in tandem with a JWT local auth strategy.'
+
+    },
+    {
       name:'TekTeilen',
       url: 'https://tekteilen-app.netlify.com',
       description: 'A spin on the German phrase for \'sharing tech\', tekteilen coordinates dev volunteers with organizations that need their help.', 
@@ -30,7 +40,7 @@ const projectObj = {
       imageUrl:'../src/img/linklib.png',
       linktorepo: 'https://github.com/evang522/linklib-server',
       myrole: 'I was the sole developer for this project, attempting to solve a personal need.',
-      techstack: 'I have always been impressed by Python\'s versatility. So I decided I would try to learn the language and write an application using Python. So I took a week and learned Python basics and Flask server framework and wrote this app. I was also able to write custom JWT authentication middleware in Python, to protect user data.'
+      techstack: 'I have always been impressed by Python\'s versatility. So I decided I would try to learn the language and write an application using Python. I took a week and learned Python basics and Flask server framework and wrote this app. I was also able to write custom JWT authentication middleware in Python, to protect user data.'
 
     },
     {
@@ -42,7 +52,7 @@ const projectObj = {
       myrole: 'On this project I worked with <a href="https://github.com/christinamakes">Christina Moore</a>, a fellow Thinkful graduate and an excellent frontend developer. My role was in writing most of the server-side code for this app.We made use of a Javascript based Linkedlist Class  which is stored in the database to manage the user\'s quiz data flow. I wrote a Spaced Repetition Algorithm that makes use of static methods on the Linked List class to adjust the frequency with which the user would encounter a question based upon their answer.',
       techstack: 'MongoDB, Node.js, Expressjs, React.js, and Redux for state management. This app also makes use of my custom authentication middleware written with JSON web token.'
 
-    }
+    },
   ],
 
 
