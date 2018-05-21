@@ -14,6 +14,16 @@ const projectObj = {
       techstack: 'This project was made using Node, Express, MongoDB, and Pug templating engine for serverside rendering. This is the only project I\'ve done with serverside rendering. I now prefer a REST API and a frontend framework such as React.js. Authentication is managed by Passport.js.'
     },
     {
+      name:'Hermes Messenger',
+      url: 'https://hermes-chat.netlify.com/',
+      description: 'Hermes is what happened when I decided I liked Slack so much I wanted to begin recreating my own version of it. Obviously, Slack is a very refined tool that has been developed over years with a team of many developers, so I won\'t be able to build out the whole app at once. So, very much according to the agile philosophy, I am releasing small feature sets at a time. Hermes is not a finished product, so expect more awesome updates as I continue to release more features! If you are interested in testing out Hermes, you may log in with the handle `demo` and the password `demouser`. There is a demoroom already set up <a href="https://hermes-chat.netlify.com/demoroom">here</a>. You will be required to log in, first.',
+      imageUrl:'../src/img/hermes.png',
+      linktorepo: 'https://github.com/evang522/hermes-client',
+      myrole: 'I was the sole developer creating Hermes. Hermes is a proof of concept imitating the widely used tool <a href="https://slack.com">Slack</a>. ',
+      techstack: 'MongoDB, Node.js, Expressjs, React.js, Socket.io for realtime Chat, Redux for state management. Completely custom CSS.'
+
+    },
+    {
       name:'Schedio Event Planner',
       url: 'https://schedio.netlify.com/',
       description: 'Schedio is an event planner the core goal of which is to provide users with knowledge of what they might be able to do when travelling to a certain area. This app is borne out of personal interest-- we like to travel places and we wanted to have a centralized console by which we can plan, manage information, and see possibilities for our trips.', 
