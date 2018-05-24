@@ -16,7 +16,7 @@ const projectObj = {
     {
       name:'Hermes Messenger',
       url: 'https://hermes-chat.netlify.com/',
-      description: 'Hermes is what happened when I decided I liked Slack so much I wanted to begin recreating my own version of it. Obviously, Slack is a very refined tool that has been developed over years with a team of many developers, so I won\'t be able to build out the whole app at once. So, very much according to the agile philosophy, I am releasing small feature sets at a time. Hermes is not a finished product, so expect more awesome updates as I continue to release more features! If you are interested in testing out Hermes, you may log in with the handle `demo` and the password `demouser`. There is a demoroom already set up <a href="https://hermes-chat.netlify.com/demoroom">here</a>. You will be required to log in, first.',
+      description: 'Hermes is my own effort to recreate an application similar to Slack. Slack is a very refined tool that has been developed over years with a team of many developers, so I won\'t be able to build out the whole app at once. Very much according to the agile philosophy, then, I am releasing small feature sets at a time. If you are interested in testing out Hermes, you may log in with the handle `demo` and the password `demouser`. There is a demoroom already set up <a href="https://hermes-chat.netlify.com/demoroom">here</a>. You will be required to log in, first.',
       imageUrl:'../src/img/hermes.png',
       linktorepo: 'https://github.com/evang522/hermes-client',
       myrole: 'I was the sole developer creating Hermes. Hermes is a proof of concept imitating the widely used tool <a href="https://slack.com">Slack</a>. ',
@@ -76,7 +76,7 @@ const projectObj = {
           <div class='project-name'>
             ${project.name}
             </div>
-            <a class='repo-link' href='${project.linktorepo}'><img class='repo-link-img' alt='Link to Repository' src='../src/img/githubwhite.png'></a>
+            <a class='repo-link' href='${project.linktorepo}' target='_blank'><img class='repo-link-img' alt='Link to Repository' src='../src/img/githubwhite.png'></a>
           </div>
             <div class='project-description'>
             ${project.description}
@@ -92,7 +92,7 @@ const projectObj = {
             
           </div>
           <div class='project-image'>
-          <a href='${project.url}'><img src='${project.imageUrl}'>
+          <a href='${project.url}' target='_blank'><img src='${project.imageUrl}'>
           </a>
           </div>
     </div>`;
