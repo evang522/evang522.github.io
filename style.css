@@ -260,20 +260,12 @@ body {
     width:60%;
   }
 
-  .links-container {
-    display:flex;
-    flex-direction:column;
-    margin:0 auto;
-  }
 
   .name-link-cont {
     justify-content:center;
   }
 
-  .internal-links {
-    text-align:center;
-    margin-left:0;
-  }
+
 
   .project-info-container {
     width:100%;
@@ -289,6 +281,17 @@ body {
 }
 
 @media only screen and (max-width:800px) {
+  .internal-links {
+    text-align:center;
+    margin-left:0;
+  }
+
+  .links-container {
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+  }
+
  
   .jumbotron-links{
     margin:0 auto;
@@ -327,6 +330,9 @@ body {
     margin:0 auto;
     box-sizing:border-box;
   }
+
+
+  
   .jumbotron-intro-container {
     margin-top:8em;
   }

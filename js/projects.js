@@ -55,7 +55,7 @@ const projectObj = {
     },
     {
       name:'Data Science and Algorithms Quiz',
-      url: 'https://elated-jackson-e60e1b.netlify.com/',
+      url: 'https://dsawesome.netlify.com/',
       description: 'A quiz geared towards helping students learn Data Science Concepts by implementing a spaced repetition question frequency algorithm. If the student gets a question correct, they will not see the question as often. If they get a specific question wrong, however, it will appear more frequently until their knowledge improves.', 
       imageUrl:'../src/img/dsa.png',
       linktorepo: 'https://github.com/thinkful-ei18/sr-client-cm-eg',
