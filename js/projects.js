@@ -28,7 +28,7 @@ const projectObj = {
       url: 'https://schedio.netlify.com/',
       description: 'Schedio is an event planner the core goal of which is to provide users with knowledge of what they might be able to do when travelling to a certain area. This app is borne out of personal interest-- we like to travel places and we wanted to have a centralized console by which we can plan, manage information, and see possibilities for our trips.', 
       imageUrl:'../src/img/schedio.png',
-      linktorepo: 'https://github.com/thinkful-ei18/sr-client-cm-eg',
+      linktorepo: 'https://github.com/thinkful-ei18/schedio-client',
       myrole: 'I worked on a team of five developers to create Schedio. My role in the project was to create the backbone of the serverside code, creating the majority of CRUD actions for Events, the creation of Todo List Items, Restaurant Data, and Weather data. I was also the primary author of testing for our API. Tasks in the frontend I was responsible for include logic which retrieves the main dataset for a user from the database, creating three modular widgets: Todo List, Weather, and Food and Dining.',
       techstack: 'MongoDB, Node.js, Expressjs, React.js, and Redux for state management. Google oAuth manages Authentication in tandem with a JWT local auth strategy.'
 
