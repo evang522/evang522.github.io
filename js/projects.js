@@ -5,13 +5,14 @@ const projectObj = {
 
   projects: [
     {
-      name:'The Drystore',
-      url: 'https://drystore-demo.herokuapp.com',
-      description: 'An app for storing records of and analyzing longevity of dried foods.',
-      imageUrl:'../src/img/drystore.png',
-      linktorepo: 'https://github.com/evang522/drystore',
-      myrole: 'I was the sole developer on this project, attempting to solve an administrative challenge for food storage for my family.',
-      techstack: 'This project was made using Node, Express, MongoDB, and Pug templating engine for serverside rendering. This is the only project I\'ve done with serverside rendering. I now prefer a REST API and a frontend framework such as React.js. Authentication is managed by Passport.js.'
+      name:'Glaubensfutter',
+      url: 'https://glaubensfutter.de',
+      description: 'Glaubensfutter means in German, literally "food for faith", or "faith fodder". This is a real web service for the organization by the same name. Glaubensfutter\'s web service coordinates the volunteer work for the translation of philosophical defences of the Christian faith into German, as well as hosting translated publications. At the moment the repositories are unavailable. Sorry!',
+      imageUrl:'../src/img/glaubensfutter.png',
+      linktorepo: './#',
+      myrole: 'As a Christian who has had the privilege to be exposed to analytically precise, compelling, and comprehensive contemporary defences of the Christian faith in the English world, I believe it is important to make this valuable philosophical work more accessible via translation and community to the German speaking world. I work together with a team of Germans and Americans to make this possible. I am the sole developer, but hope to be onboarding some juniors sometime soon!',
+      techstack: 'This is a full stack project using Node.js, Express, MongoDB, Helmet.js, React.js, Redux.js, React-Intl for Internationalization, Draft.js for Markdown editing, and more.',
+      disableExternalTarget: true,
     },
     {
       name:'Hermes Messenger',
@@ -22,6 +23,15 @@ const projectObj = {
       myrole: 'I was the sole developer creating Hermes. Hermes is a proof of concept imitating the widely used tool <a href="https://slack.com">Slack</a>. ',
       techstack: 'MongoDB, Node.js, Expressjs, React.js, Socket.io for realtime Chat, Redux for state management. Completely custom CSS.'
 
+    },
+    {
+      name:'The Drystore',
+      url: 'https://drystore-demo.herokuapp.com',
+      description: 'An app for storing records of and analyzing longevity of dried foods.',
+      imageUrl:'../src/img/drystore.png',
+      linktorepo: 'https://github.com/evang522/drystore',
+      myrole: 'I was the sole developer on this project, attempting to solve an administrative challenge for food storage for my family.',
+      techstack: 'This project was made using Node, Express, MongoDB, and Pug templating engine for serverside rendering. This is the only project I\'ve done with serverside rendering. I now prefer a REST API and a frontend framework such as React.js. Authentication is managed by Passport.js.'
     },
     {
       name:'Schedio Event Planner',
@@ -76,7 +86,7 @@ const projectObj = {
           <div class='project-name'>
             ${project.name}
             </div>
-            <a class='repo-link' href='${project.linktorepo}' target='_blank'><img class='repo-link-img' alt='Link to Repository' src='../src/img/githubwhite.png'></a>
+            <a class='repo-link' href='${project.linktorepo}' ${project.disableExternalTarget ? '' : "target='_blank'"}><img class='repo-link-img' alt='Link to Repository' src='../src/img/githubwhite.png'></a>
           </div>
             <div class='project-description'>
             ${project.description}
