@@ -7,11 +7,11 @@ const projectObj = {
     {
       name:'Glaubensfutter',
       url: 'https://glaubensfutter.de',
-      description: 'Glaubensfutter means in German, literally "food for faith", or "faith fodder". This is a real web service for the organization by the same name. Glaubensfutter\'s web service coordinates the volunteer work for the translation of philosophical defences of the Christian faith into German, as well as hosting translated publications. At the moment the repositories are unavailable. Sorry!',
+      description: 'Glaubensfutter means in German, literally "food for faith", or "faith fodder". This is a real web service for the organization by the same name. Glaubensfutter\'s web service coordinates the volunteer work for the translation of philosophical defences of the Christian faith into German, as well as hosting translated publications. At the moment the repositories are private.',
       imageUrl:'../src/img/glaubensfutter.png',
       linktorepo: './#',
       myrole: 'As a Christian who has had the privilege to be exposed to analytically precise, compelling, and comprehensive contemporary defences of the Christian faith in the English world, I believe it is important to make this valuable philosophical work more accessible via translation and community to the German speaking world. I work together with a team of Germans and Americans to make this possible. I am the sole developer, but hope to be onboarding some juniors sometime soon!',
-      techstack: 'This is a full stack project using Node.js, Express, MongoDB, Helmet.js, React.js, Redux.js, React-Intl for Internationalization, Draft.js for Markdown editing, and more.',
+      techstack: 'This is a full stack project, the frontend and backend codebases of which are written in Typescript using Node.js, Express, MongoDB, Helmet.js, React.js, Redux.js, React-Intl for Internationalization, Draft.js for Markdown editing, and more. The serverside framework makes use of a REST API to serve the frontend application and allow for potential multi platform integration in the future.',
       disableExternalTarget: true,
     },
     {
