@@ -11,7 +11,7 @@ const projectObj = {
       imageUrl:'../src/img/glaubensfutter.png',
       linktorepo: './#',
       myrole: 'As a Christian who has had the privilege to be exposed to analytically precise, compelling, and comprehensive contemporary defences of the Christian faith in the English world, I believe it is important to make this valuable philosophical work more accessible via translation and community to the German speaking world. I work together with a team of Germans and Americans to make this possible. I am the sole developer, but hope to be onboarding some juniors sometime soon!',
-      techstack: 'This is a full stack project, the frontend and backend codebases of which are written in Typescript using Node.js, Express, MongoDB, Helmet.js, React.js, Redux.js, React-Intl for Internationalization, Draft.js for Markdown editing, and more. The serverside framework makes use of a REST API to serve the frontend application and allow for potential multi platform integration in the future.',
+      techstack: 'This is a full stack project, the frontend and backend codebases of which are written in Typescript using Node.js, Express, MongoDB, Helmet.js, React.js, Redux.js, React-Intl for Internationalization, Draft.js for Markdown editing, and more. The serverside framework makes use of a REST API to serve the frontend application and allow for potential multi platform integration in the future. I have benefited greatly from SOLID principles and particularly OOP (Object Oriented Programming) design patterns in both Frontend and Backend architecture.',
       disableExternalTarget: true,
     },
     {
