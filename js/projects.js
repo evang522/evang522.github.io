@@ -5,6 +5,20 @@ const projectObj = {
 
   projects: [
     {
+      name:'Time Interval JS',
+      url: 'https://www.npmjs.com/package/time-interval-js',
+      description: 'A simple Time Interval class developed for working with javascript date objects and relationships between them.',
+      imageUrl:'../src/img/timeintervaltslogo.png',
+      linktorepo: 'https://github.com/evang522/timeinterval#readme',
+      myrole: 'Necessity is the mother of invention. As I was standing in the shower (how it always goes) thinking through a project with login features I would soon be helping develop, I realized that one of the principles of rich architecture (as opposed to anemic architecture), is having rich objects that exhibit the behavior and properties of what they really do in real life. Therefore if you\'re going to do assertions on JWT auth and refresh tokens or anything comparing the passage of time, you may as well build an object that expresses this concept richly. So I built this and decided it could be helpful for others.',
+      techstack: 'Typescript, ESLint-Typescript, and NPM.',
+      disableExternalTarget: true,
+      imageDimensions: {
+        height: '18rem',
+        width: '20rem'
+      }
+    },
+    {
       name:'Glaubensfutter',
       url: 'https://glaubensfutter.de',
       description: 'Glaubensfutter means in German, literally "food for faith", or "faith fodder". This is a real web service for the organization by the same name. Glaubensfutter\'s web service coordinates the volunteer work for the translation of philosophical defences of the Christian faith into German, as well as hosting translated publications. At the moment the repositories are private.',
@@ -102,7 +116,7 @@ const projectObj = {
             
           </div>
           <div class='project-image'>
-          <a href='${project.url}' target='_blank'><img src='${project.imageUrl}'>
+          <a href='${project.url}' target='_blank'><img src='${project.imageUrl}' style="margin-top: 2rem;${project.imageDimensions ? ` height: ${project.imageDimensions.height}; width: ${project.imageDimensions.width};"`: '"' }>
           </a>
           </div>
     </div>`;
