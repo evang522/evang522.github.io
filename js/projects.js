@@ -5,6 +5,20 @@ const projectObj = {
 
   projects: [
     {
+      name:'Memento Notepad (Chrome Extension)',
+      url: 'https://chrome.google.com/webstore/detail/memento/jfpnlhmdmlfbjejmnfgacgkkligneihb?hl=en',
+      description: 'A simple Time Interval class developed for working with javascript date objects and relationships between them.',
+      imageUrl:'../src/img/memento.jpg',
+      linktorepo: 'https://github.com/evang522/timeinterval#readme',
+      myrole: 'Memento started out as a mere curiosity whether or not it made any sense to implement DDD and CQRS concepts in a browser context. (hint, they do! as long as you adapt them accordingly) <br/> <br/> The notepad was rather a side effect. But then it grew into something that actually seemed worth spending time on. Over time I also began to use this notepad as my default new-tab page because I enjoyed using it so much for taking notes. In the end I decided I wanted to have it as a Chrome extension. I am still actively adding updates here and there to Memento. <br/> <br/> The goal of memento is to create a notepad that has a very simple interface but which has a powerful and ever-expanding skill-set underneath the hood, triggered by shortcuts. Try it out yourself if you like!',
+      techstack: 'Typescript, Inversify.io, MobX, CQRS, Event Bus, Command Bus, Query Bus, DDD design patterns (in the scope of a browser based application), Draft JS, and some Material UI.',
+      disableExternalTarget: true,
+      imageDimensions: {
+        height: '14rem',
+        width: '22rem'
+      }
+    },
+    {
       name:'Time Interval JS',
       url: 'https://www.npmjs.com/package/time-interval-js',
       description: 'A simple Time Interval class developed for working with javascript date objects and relationships between them.',
@@ -48,19 +62,9 @@ const projectObj = {
       techstack: 'This project was made using Node, Express, MongoDB, and Pug templating engine for serverside rendering. This is the only project I\'ve done with serverside rendering. I now prefer a REST API and a frontend framework such as React.js. Authentication is managed by Passport.js.'
     },
     {
-      name:'Schedio Event Planner',
-      url: 'https://schedio.netlify.com/',
-      description: 'Schedio is an event planner the core goal of which is to provide users with knowledge of what they might be able to do when travelling to a certain area. This app is borne out of personal interest-- we like to travel places and we wanted to have a centralized console by which we can plan, manage information, and see possibilities for our trips.', 
-      imageUrl:'../src/img/schedio.png',
-      linktorepo: 'https://github.com/thinkful-ei18/schedio-client',
-      myrole: 'I worked on a team of five developers to create Schedio. My role in the project was to create the backbone of the serverside code, creating the majority of CRUD actions for Events, the creation of Todo List Items, Restaurant Data, and Weather data. I was also the primary author of testing for our API. Tasks in the frontend I was responsible for include logic which retrieves the main dataset for a user from the database, creating three modular widgets: Todo List, Weather, and Food and Dining.',
-      techstack: 'MongoDB, Node.js, Expressjs, React.js, and Redux for state management. Google oAuth manages Authentication in tandem with a JWT local auth strategy.'
-
-    },
-    {
       name:'TekTeilen',
       url: 'https://tekteilen-app.netlify.com',
-      description: 'A spin on the German phrase for \'sharing tech\', tekteilen coordinates dev volunteers with organizations that need their help.', 
+      description: 'A spin on the German phrase for \'sharing tech\', tekteilen coordinates dev volunteers with organizations that need their help.',
       imageUrl:'../src/img/tekteilen.png',
       linktorepo: 'https://github.com/evang522/tekteilen-client',
       myrole: 'I was the sole developer for this project, attempting to provide a place for non-profits needing assistance with tech and tech volunteers to connect. ',
@@ -70,7 +74,7 @@ const projectObj = {
     {
       name:'LinkLib, an Audio Library served by Python',
       url: 'https://linklibrary-audio.netlify.com/',
-      description: 'This is, interestingly, one of my most favorite apps I\'ve ever made, despite it\'s simplicity. I listen to a lot of MP3 files that I often need to download from the internet and store on my phone or computer. I decided it might be helpful to have a centralized place where I can store links to my favorite hosted MP3 files that is also capable of playback.', 
+      description: 'This is, interestingly, one of my most favorite apps I\'ve ever made, despite it\'s simplicity. I listen to a lot of MP3 files that I often need to download from the internet and store on my phone or computer. I decided it might be helpful to have a centralized place where I can store links to my favorite hosted MP3 files that is also capable of playback.',
       imageUrl:'../src/img/linklib.png',
       linktorepo: 'https://github.com/evang522/linklib-server',
       myrole: 'I was the sole developer for this project, attempting to solve a personal need.',
@@ -80,7 +84,7 @@ const projectObj = {
     {
       name:'Data Science and Algorithms Quiz',
       url: 'https://dsawesome.netlify.com/',
-      description: 'A quiz geared towards helping students learn Data Science Concepts by implementing a spaced repetition question frequency algorithm. If the student gets a question correct, they will not see the question as often. If they get a specific question wrong, however, it will appear more frequently until their knowledge improves.', 
+      description: 'A quiz geared towards helping students learn Data Science Concepts by implementing a spaced repetition question frequency algorithm. If the student gets a question correct, they will not see the question as often. If they get a specific question wrong, however, it will appear more frequently until their knowledge improves.',
       imageUrl:'../src/img/dsa.png',
       linktorepo: 'https://github.com/thinkful-ei18/sr-client-cm-eg',
       myrole: 'On this project I worked with <a href="https://github.com/christinamakes">Christina Moore</a>, a fellow Thinkful graduate and an excellent frontend developer. My role was in writing most of the server-side code for this app.We made use of a Javascript based Linkedlist Class  which is stored in the database to manage the user\'s quiz data flow. I wrote a Spaced Repetition Algorithm that makes use of static methods on the Linked List class to adjust the frequency with which the user would encounter a question based upon their answer.',
@@ -103,7 +107,7 @@ const projectObj = {
             <a class='repo-link' href='${project.linktorepo}' ${project.disableExternalTarget ? '' : "target='_blank'"}><img class='repo-link-img' alt='Link to Repository' src='../src/img/githubwhite.png'></a>
           </div>
             <div class='project-description'>
-            ${project.description}
+            <b>${project.description}</b>
               <div class='myrole'>
               <div class='role-title'>My Role:</div>
               ${project.myrole}
