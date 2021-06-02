@@ -7,7 +7,7 @@ const projectObj = {
     {
       name:'Memento Notepad (Chrome Extension)',
       url: 'https://chrome.google.com/webstore/detail/memento/jfpnlhmdmlfbjejmnfgacgkkligneihb?hl=en',
-      description: 'A simple, intuitive, and beautiful notepad that has more capability than meets the eye.',
+      description: 'A simple, intuitive, and beautiful notepad that has more capability than meets the eye. (Repo access available upon request)',
       imageUrl:'../src/img/memento.jpg',
       linktorepo: './#',
       myrole: 'Memento started out as a mere curiosity whether or not it made any sense to implement DDD and CQRS concepts in a browser context. (hint, they do! as long as you adapt them accordingly) <br/> <br/> The notepad was rather a side effect. But then it grew into something that actually seemed worth spending time on. Over time I also began to use this notepad as my default new-tab page because I enjoyed using it so much for taking notes. In the end I decided I wanted to have it as a Chrome extension. I am still actively adding updates here and there to Memento. <br/> <br/> The goal of memento is to create a notepad that has a very simple interface but which has a powerful and ever-expanding skill-set underneath the hood, triggered by shortcuts. Try it out yourself if you like!',
