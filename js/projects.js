@@ -13,8 +13,8 @@ const projectObj = {
       myrole: 'My team uses inversify for dependency injection in our frontend application. The typical way of registering services to interfaces is procedural. But when the application begins to grow, this begins to get messy very quickly. So I developed a configuration framework for registering them. It worked pretty well, so I made it an NPM package :)',
       techstack: 'Inversify, SOLID architecture principles, Typescript, Reflect Metadata',
       imageDimensions: {
-        height: '16rem',
-        width: '16rem'
+        height: '13rem',
+        width: '13rem'
       }
     },
     {
