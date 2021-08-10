@@ -4,6 +4,15 @@
 const projectObj = {
 
   projects: [
+     {
+      name:'Inversify Service Config',
+      url: 'https://www.npmjs.com/package/inversify-service-config',
+      description: 'Provides service configuration infrastructure for inversify Dependency Injection',
+      imageUrl:'https://raw.githubusercontent.com/evang522/inversify-service-config/HEAD/assets/inversify_config_logo.png',
+      linktorepo: 'https://github.com/evang522/inversify-service-config',
+      myrole: 'My team uses inversify for dependency injection in our frontend application. The typical way of registering services to interfaces is procedural. But when the application begins to grow, this begins to get messy very quickly. So I developed a configuration framework for registering them. It worked pretty well, so I made it an NPM package :)',
+      techstack: 'Inversify, SOLID architecture principles, Typescript, Reflect Metadata'
+    },
     {
       name:'Memento Notepad (Chrome Extension)',
       url: 'https://chrome.google.com/webstore/detail/memento/jfpnlhmdmlfbjejmnfgacgkkligneihb?hl=en',
